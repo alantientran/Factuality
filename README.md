@@ -3,7 +3,7 @@ Factuality is a mobile app that factchecks live audio using a RAG Pipeline.
 The app transcribes audio, highlights claims, and provides the factuality, confidence, and context for each claim.
 
 ## Tech Stack:
-The app uses a React Native frontend and Flask backend. It uses a Pinecone vector database, OpenAI GPT-4o-mini LLM, and OpenAI embedding model. Sources are curated on Google's Programmable Search Engine to ensure credbility.
+The app uses a React Native frontend and Flask backend. It uses a Pinecone vector database, OpenAI GPT-4o-mini LLM, and OpenAI embedding model. Sources are curated on Google's Programmable Search Engine to ensure credibility. Sources included are .edu and .gov domains as well as from minimally biased news outlets like NPR and AP News.
 
 ## Demo
 
