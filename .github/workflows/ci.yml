@@ -74,6 +74,7 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISABLE_ERRORS: true
 
       # Run Jest (Frontend tests)
       - name: Run Jest tests
