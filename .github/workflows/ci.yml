@@ -79,7 +79,7 @@ jobs:
       # Run Jest (Frontend tests)
       - name: Run Jest tests
         run: |
-          cd frontend
+          cd factuality
           npm test -- --ci --coverage
 
       # Optional: Run Python tests
